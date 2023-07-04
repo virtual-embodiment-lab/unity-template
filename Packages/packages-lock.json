@@ -21,6 +21,15 @@
       },
       "url": "https://normcore-registry.normcore.io"
     },
+    "com.oculus.unity-integration": {
+      "version": "https://github.com/RageAgainstThePixel/com.oculus.unity-integration.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.oculus": "3.0.2"
+      },
+      "hash": "50559935112696b0ac12c1b2ab9f8c3f7476013f"
+    },
     "com.readyplayerme.avatarloader": {
       "version": "https://github.com/readyplayerme/rpm-unity-sdk-avatar-loader.git#v1.3.3",
       "depth": 0,
@@ -49,12 +58,6 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
       "hash": "9cb0d1052329238ed01aea976b00da844032ff74"
-    },
-    "com.unity.asset-store-tools": {
-      "version": "file:com.unity.asset-store-tools",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "com.unity.burst": {
       "version": "1.8.4",
@@ -291,9 +294,9 @@
       "url": "https://packages.unity.com"
     },
     "com.virtualembodimentlab.lib": {
-      "version": "file:com.virtualembodimentlab.lib",
+      "version": "https://github.com/virtual-embodiment-lab/vellib.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "com.normalvr.normcore": "2.4.1",
         "com.unity.xr.interaction.toolkit": "2.3.2",
@@ -302,7 +305,8 @@
         "com.unity.modules.xr": "1.0.0",
         "com.unity.textmeshpro": "3.0.6",
         "com.readyplayerme.core": "1.3.1"
-      }
+      },
+      "hash": "e11b409f641972cf7e5425bb1c10908d36ef53fa"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

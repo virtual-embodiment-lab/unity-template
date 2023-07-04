@@ -2,6 +2,7 @@
   "dependencies": {
     "com.atteneder.gltfast": "https://github.com/atteneder/glTFast.git#v5.0.0",
     "com.normalvr.normcore": "3.0.0-webgl-alpha.1",
+    "com.oculus.unity-integration": "https://github.com/RageAgainstThePixel/com.oculus.unity-integration.git#upm",
     "com.readyplayerme.avatarloader": "https://github.com/readyplayerme/rpm-unity-sdk-avatar-loader.git#v1.3.3",
     "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git#v1.3.2",
     "com.readyplayerme.webview": "https://github.com/readyplayerme/rpm-unity-sdk-webview.git#v1.2.0",
