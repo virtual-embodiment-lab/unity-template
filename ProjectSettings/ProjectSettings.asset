@@ -785,8 +785,11 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: READY_PLAYER_ME;NORMCORE
-    Standalone: NORMCORE;READY_PLAYER_ME
+    Android: READY_PLAYER_ME;NORMCORE;GLTFAST
+    Standalone: NORMCORE;READY_PLAYER_ME;GLTFAST
+    WebGL: READY_PLAYER_ME;GLTFAST
+    Windows Store Apps: READY_PLAYER_ME;GLTFAST
+    iPhone: READY_PLAYER_ME;GLTFAST
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

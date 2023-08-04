@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _migration:
     lastPromptedVersion: 4
-    version: 4
+    version: 5
   _projectGUID: 86177ee8-000e-4499-8e77-014351027dc3
